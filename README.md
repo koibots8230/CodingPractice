@@ -30,7 +30,7 @@ it should be...  (*note: the \*\* asterisks are just used to bold words*)
 
 - a **public** function: we want classes to access it
 - a **static** function: we want classes to access it without creating a RobotFunctions object
-- a **void** function: we are not trying to get a value, but set a value
+- a **void** function: we don't want the function to *return* any value.
 
 and it needs to take
 
