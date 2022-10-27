@@ -1,6 +1,6 @@
 practice coding - It's fine if you don't complete all of these! They are just introductory tasks to figure out java's syntax and structure. And remember, google is always your friend :)
 
-use javac to compile classes. use java to run RobotMain.class, which will run your program
+use **javac** to compile classes. use java to run RobotMain.class, which will run your program
 
 NOTE: An encoder value is what is used to measure the rotation of a motor. For simplicity, 'rotating' and 'setting' the rotation of the motor will be modifying this value. In the actual code, you will be setting motor speeds and than measuring the speed using the encoder.
 
