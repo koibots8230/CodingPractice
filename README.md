@@ -6,7 +6,7 @@ structure. And remember, google is always your friend :)
 use javac to compile classes. 
 use java to run RobotMain.class, which will run your program
 
-NOTE: An encoder value is what is used to measure the rotation of a motor. For simplicity, 'rotating' and 'setting' the rotation of the motor will be modifying this value.
+NOTE: An encoder value is what is used to measure the rotation of a motor. For simplicity, 'rotating' and 'setting' the rotation of the motor will be modifying this value. In the actual code, you will be setting motor speeds and than measuring the speed using the encoder. 
 
 task one: Compile the classes and run the program in RobotMain.
 You should get the output:
@@ -19,7 +19,7 @@ a **public** function: we want classes to access it
 a **static** function: we want classes to access it without creating a RobotFunctions object
 a **void** function: we are not trying to get a value, but set a value
 and it needs to take
-a **motor** parameter: Motor (Type Your Reference Word Here)
+a **motor** parameter: Motor (Type Your Reference Word Here), and **int** parameter to set 
 
 task three. Create a function called RotateMotor. It should rotate the motor by a specified value.
 
